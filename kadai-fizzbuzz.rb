@@ -6,11 +6,11 @@ def fizzbuzz(num)
   elsif num % 5 == 0
     'Buzz'
   else
-    num.to_s 
+    num
   end
 end
         
 num_max = 100
-(1..num_max = 100).each do |num|
+(1..num_max).each do |num|
   puts fizzbuzz(num)
 end
